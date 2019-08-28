@@ -4,24 +4,21 @@
 
 command below does publish the package to online repo.
 
-```
+```shell
 npm publish
 ```
 
 ## versioning
 
-```
+```shell
 npm version <patch|minor|major>
 ```
 
 ## configure what should be included
 
-```package.json
+```json
 {
-    files:[
-        'dist',
-        'src/common/*.js'
-    ]
+  "files": ["dist", "src/common/*.js"]
 }
 ```
 
